@@ -1,0 +1,14 @@
+script(src="/bayeux.js")
+:javascript
+  | user="#{name}";
+  | token="#{token}";
+textarea#r(cols=160,rows=40)
+script(src="/service.js")
+br
+| Try following in console:
+br
+| makeAction("echo", {text:"Hello!"})
+br
+| makeAction("theAnswer", 42)
+br
+| makeAction("sayName")

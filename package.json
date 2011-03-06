@@ -1,0 +1,28 @@
+{ "name"          : "faye-service"
+, "description"   : "Mimics support for /service/** channels in Faye."
+, "keywords"      : ["comet", "websocket", "pubsub", "bayeux","service"]
+, "author"        : "Matjaz Lipus <matjazl@gmail.com>"
+
+, "version"       : "0.1.0"
+, "engines"       : {"node": ">=0.1.96"}
+, "main"          : "./lib/index"
+, "dependencies" : { "faye" : ">=0.5.5" }
+
+, "bugs"          : "http://github.com/matjaz/faye-service/issues"
+
+, "maintainers"   : [ { "name"    : "Matjaz Lipus"
+                      , "email"   : "matjazl@gmail.com"
+                      , "web"     : "http://matjaz.info"
+                      }
+                    ]
+
+, "licenses"      : [ { "type"    : "MIT"
+                      , "url"     : "http://www.opensource.org/licenses/mit-license.php"
+                      }
+                    ]
+
+, "repositories"  : [ { "type"    : "git"
+                      , "url"     : "git://github.com/matjaz/faye-service.git"
+                      }
+                    ]
+}
